@@ -89,7 +89,7 @@ void g(int64_t n)
 		int b[3];
 		int k1;
 		int c[10] = { 001,002,003,004,005,006,007,137,138,139 };
-		string h[10] = { "TC","TC","TC","TC","TC","TC","TC","TB","TB","TB" };
+		string h[10] = { "Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tabriz","Tabriz","Tabriz" };
 		k = n / 10000000;
 		for (int i = 0; i <= 9; i++)
 		{
