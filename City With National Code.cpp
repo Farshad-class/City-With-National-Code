@@ -83,11 +83,6 @@ void g(int64_t n)
 	if (t == 1 || t1 == 1)
 	{
 		int64_t k;
-		int64_t m, r;
-		int64_t sum = 0;
-		int64_t a[10];
-		int b[3];
-		int k1;
 		int c[10] = { 001,002,003,004,005,006,007,137,138,139 };
 		string h[10] = { "Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tehran-Center","Tabriz","Tabriz","Tabriz" };
 		k = n / 10000000;
