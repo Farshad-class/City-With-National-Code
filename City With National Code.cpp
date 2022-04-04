@@ -103,6 +103,6 @@ void g(int64_t n)
 	}
 	else
 	{
-		cout << "in code meli sahih nist" << endl;
+		cout << "in code meli sahih naboudeh va shahri barayash ghabel namayesh nist" << endl;
 	}
 }
