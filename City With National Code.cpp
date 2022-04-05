@@ -11,7 +11,7 @@ using namespace std;
 
 void f(int64_t);
 void g(int64_t);
-int t = 0, t1 = 0;
+int t = 0;
 int main()
 {
 
@@ -68,7 +68,7 @@ void f(int64_t n)
 		if (r == a[0])
 		{
 			cout << "national code is true";
-			t1 = 1;
+			t = 1;
 		}
 		else
 		{
@@ -80,7 +80,7 @@ void f(int64_t n)
 
 void g(int64_t n)
 {
-	if (t == 1 || t1 == 1)
+	if (t == 1 )
 	{
 		int64_t k;
 		int c[10] = { 001,002,003,004,005,006,007,137,138,139 };
